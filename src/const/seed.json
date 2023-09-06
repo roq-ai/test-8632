@@ -1,0 +1,2072 @@
+[
+  {
+    "user_activity": [
+      {
+        "id": "5611e25f-5893-4e06-9bf7-1c31576c32d0",
+        "activity_type": "Login",
+        "activity_result": "Success",
+        "created_at": "2023-09-06T14:39:37.158Z",
+        "updated_at": "2023-09-05T17:48:01.625Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6bafe9bb-08d7-43bf-a4e3-51be61d784b3",
+        "activity_type": "Logout",
+        "activity_result": "Failure",
+        "created_at": "2023-09-06T02:52:21.628Z",
+        "updated_at": "2023-09-05T23:34:10.735Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7337b976-0e75-4a80-b1b8-98a540966f44",
+        "activity_type": "Update Profile",
+        "activity_result": "Incomplete",
+        "created_at": "2023-09-06T02:13:41.337Z",
+        "updated_at": "2023-09-06T03:42:21.972Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "acd7a046-a8e3-4525-8896-a8993f3f45e1",
+        "activity_type": "Create Account",
+        "activity_result": "Pending",
+        "created_at": "2023-09-06T07:13:13.897Z",
+        "updated_at": "2023-09-06T00:56:57.616Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07c37fd9-eadc-40e8-ac4e-3a5c2ebaf8da",
+        "activity_type": "Delete Account",
+        "activity_result": "Error",
+        "created_at": "2023-09-06T11:26:14.363Z",
+        "updated_at": "2023-09-05T23:55:33.447Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_interaction": [
+      {
+        "id": "92bd6528-6298-4355-8ad5-91d6c9ddf5b4",
+        "interaction_type": "Phone Call",
+        "interaction_result": "Resolved",
+        "created_at": "2023-09-05T20:12:12.198Z",
+        "updated_at": "2023-09-06T09:11:39.374Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64292399-a99d-49c1-9806-c8a188c218c1",
+        "interaction_type": "Email Inquiry",
+        "interaction_result": "Pending",
+        "created_at": "2023-09-06T01:18:15.086Z",
+        "updated_at": "2023-09-05T20:47:47.227Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ac5c8f6-d5b6-4e55-895f-f3ab20b8239d",
+        "interaction_type": "Live Chat",
+        "interaction_result": "Closed",
+        "created_at": "2023-09-06T14:49:25.735Z",
+        "updated_at": "2023-09-06T13:15:11.848Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2027a4e9-750f-4ca8-8249-e1ade2f3b266",
+        "interaction_type": "Product Demo",
+        "interaction_result": "Escalated",
+        "created_at": "2023-09-05T21:33:36.590Z",
+        "updated_at": "2023-09-06T05:08:04.087Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ee5acca-bb65-4b52-97b3-08d4f7174756",
+        "interaction_type": "Support Ticket",
+        "interaction_result": "Reopened",
+        "created_at": "2023-09-06T05:08:30.846Z",
+        "updated_at": "2023-09-06T06:35:40.845Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat_gpt_prompt": [
+      {
+        "id": "34684370-b6ea-425f-be3b-c8a2eb889027",
+        "prompt_text": "Generate a creative story",
+        "created_at": "2023-09-05T21:03:40.890Z",
+        "updated_at": "2023-09-05T19:20:11.722Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0bf6980a-3a97-4ae9-87df-8ceaac3fbd41",
+        "prompt_text": "Describe a beautiful sunset",
+        "created_at": "2023-09-06T06:12:17.387Z",
+        "updated_at": "2023-09-06T02:57:49.514Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "adc91a5e-31ba-495b-9ed4-5f44e9b3494b",
+        "prompt_text": "Write a poem about love",
+        "created_at": "2023-09-06T11:29:27.099Z",
+        "updated_at": "2023-09-06T16:06:18.940Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8af5a56e-07bf-47fc-bb23-012d83aeb1c8",
+        "prompt_text": "Imagine a futuristic city",
+        "created_at": "2023-09-06T09:15:13.036Z",
+        "updated_at": "2023-09-06T15:03:54.406Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "256b468c-7ede-47f8-8b1b-78707b900107",
+        "prompt_text": "Create a fictional character",
+        "created_at": "2023-09-06T05:46:28.589Z",
+        "updated_at": "2023-09-06T03:31:10.192Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "api_key": [
+      {
+        "id": "94b5636d-c2d0-48d8-a963-db3dea52a03d",
+        "key_value": "a1b2c3d4e5f6g7h8i9j0",
+        "created_at": "2023-09-06T01:41:14.350Z",
+        "updated_at": "2023-09-05T20:04:22.476Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be60d8d0-8d54-4963-999e-833ec6ca93e7",
+        "key_value": "k1l2m3n4o5p6q7r8s9t0",
+        "created_at": "2023-09-06T14:55:10.042Z",
+        "updated_at": "2023-09-06T16:29:42.211Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4796e2f-d741-4b45-93d5-f56a788bf5cb",
+        "key_value": "u1v2w3x4y5z6a7b8c9d0",
+        "created_at": "2023-09-06T05:30:17.029Z",
+        "updated_at": "2023-09-05T16:57:31.193Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3465c080-6e43-4b3e-8f73-925eb99baad8",
+        "key_value": "e1f2g3h4i5j6k7l8m9n0",
+        "created_at": "2023-09-06T11:27:38.607Z",
+        "updated_at": "2023-09-06T09:39:49.795Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8fb87d1-153c-404f-bb3d-0f095ca8a0f4",
+        "key_value": "o1p2q3r4s5t6u7v8w9x0",
+        "created_at": "2023-09-05T21:03:59.713Z",
+        "updated_at": "2023-09-05T17:48:44.261Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6bd87ff6-c3bd-443a-9309-a06e09645b68",
+        "email": "Ervin.Abernathy@yahoo.com",
+        "firstName": "Rowena",
+        "lastName": "Mante-Waters",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/753.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "eabe2e29-cc41-4051-8a30-fb39ba1e3e73",
+        "email": "Jed13@gmail.com",
+        "firstName": "Alvis",
+        "lastName": "Pfeffer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/192.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6d17a0c8-0cb2-4a53-8413-28036dccdf69",
+        "email": "Queen_Carter@hotmail.com",
+        "firstName": "Shany",
+        "lastName": "Weber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79400589",
+        "tenantId": null
+      },
+      {
+        "reference": "003e6924-cf10-4631-996d-e456fe50355b",
+        "email": "Katlyn_Smitham@hotmail.com",
+        "firstName": "Linnea",
+        "lastName": "Wyman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/248.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "df79ee96-169f-49a1-b04c-257ff424704f",
+        "email": "Fabian34@hotmail.com",
+        "firstName": "Elissa",
+        "lastName": "Rippin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79101304",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_activity": [
+      {
+        "id": "8fc8ede8-3231-4211-a3a1-6a0d6983f25c",
+        "activity_type": "login",
+        "activity_result": "success",
+        "created_at": "2023-09-06T15:58:36.857Z",
+        "updated_at": "2023-09-06T04:18:23.767Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "529fae78-27e7-42c1-b152-30beea89eab4",
+        "activity_type": "logout",
+        "activity_result": "failure",
+        "created_at": "2023-09-05T21:22:57.298Z",
+        "updated_at": "2023-09-06T05:14:54.190Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ff1d515-1e54-4dce-a32f-138adcbaa471",
+        "activity_type": "create",
+        "activity_result": "pending",
+        "created_at": "2023-09-05T22:23:54.295Z",
+        "updated_at": "2023-09-06T07:28:37.006Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e963a6ef-4f84-4309-8a31-7af758bc5650",
+        "activity_type": "update",
+        "activity_result": "completed",
+        "created_at": "2023-09-05T21:33:49.195Z",
+        "updated_at": "2023-09-06T04:00:38.559Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e90c5098-4a6d-471c-bff8-39d34bfb0985",
+        "activity_type": "delete",
+        "activity_result": "cancelled",
+        "created_at": "2023-09-06T14:44:14.956Z",
+        "updated_at": "2023-09-05T23:19:59.889Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_interaction": [
+      {
+        "id": "a3ed1019-7c09-4dec-a690-8e2f73fcb35d",
+        "interaction_type": "phone call",
+        "interaction_result": "satisfied",
+        "created_at": "2023-09-06T02:47:05.428Z",
+        "updated_at": "2023-09-05T19:51:06.270Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "36760b21-b0ae-44ae-802b-1afbe7ecede7",
+        "interaction_type": "email communication",
+        "interaction_result": "unsatisfied",
+        "created_at": "2023-09-06T16:17:47.329Z",
+        "updated_at": "2023-09-05T18:13:31.468Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ec29e23-1bf8-42f1-91b9-8b1552927c3f",
+        "interaction_type": "in-person meeting",
+        "interaction_result": "resolved",
+        "created_at": "2023-09-05T19:49:21.614Z",
+        "updated_at": "2023-09-06T02:38:50.089Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d48c254-1d63-4b56-977e-c36133a138ec",
+        "interaction_type": "video conference",
+        "interaction_result": "pending",
+        "created_at": "2023-09-06T03:19:32.023Z",
+        "updated_at": "2023-09-06T07:35:25.344Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2da83c79-780c-4dee-94dd-7c6352f71e83",
+        "interaction_type": "live chat",
+        "interaction_result": "escalated",
+        "created_at": "2023-09-06T06:20:43.778Z",
+        "updated_at": "2023-09-06T03:16:28.049Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat_gpt_prompt": [
+      {
+        "id": "a59b4a39-e9f3-4c55-91b3-20fb26c8fcca",
+        "prompt_text": "Tell me a joke",
+        "created_at": "2023-09-06T14:47:33.498Z",
+        "updated_at": "2023-09-06T12:30:57.984Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a2dfdf2-4be8-4f8a-bab4-5c0267992945",
+        "prompt_text": "What is the meaning of life?",
+        "created_at": "2023-09-06T10:39:33.365Z",
+        "updated_at": "2023-09-06T10:34:21.723Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "efefd71c-5803-4da3-a2f7-de353dd084c3",
+        "prompt_text": "How can I improve my productivity?",
+        "created_at": "2023-09-06T09:38:16.809Z",
+        "updated_at": "2023-09-05T19:57:52.809Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "404b1676-aa80-4f44-8582-955691145ab5",
+        "prompt_text": "Recommend a good book",
+        "created_at": "2023-09-05T17:15:16.653Z",
+        "updated_at": "2023-09-06T01:17:10.708Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c70371e5-40dc-4fee-844a-4e84f0427333",
+        "prompt_text": "What is your favorite movie?",
+        "created_at": "2023-09-06T05:13:32.794Z",
+        "updated_at": "2023-09-05T18:54:58.214Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "api_key": [
+      {
+        "id": "b47a81de-0648-4c5b-99f9-7ae3ac66ee63",
+        "key_value": "abcdef123456",
+        "created_at": "2023-09-06T12:11:43.032Z",
+        "updated_at": "2023-09-06T09:35:29.223Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96b6798b-498f-4b98-b860-12c7c4405da6",
+        "key_value": "987654xyz",
+        "created_at": "2023-09-06T00:16:36.305Z",
+        "updated_at": "2023-09-06T10:13:43.978Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4d231e1-2d17-468a-8ca7-ffebdee97d3d",
+        "key_value": "pqrstuvw7890",
+        "created_at": "2023-09-06T15:07:16.695Z",
+        "updated_at": "2023-09-05T23:46:03.745Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70ddacf6-01c4-4c19-835f-aedcd67fe584",
+        "key_value": "4567ijklmnop",
+        "created_at": "2023-09-06T04:47:37.934Z",
+        "updated_at": "2023-09-06T05:13:35.991Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f038dd4f-1c17-42dd-9532-66c9cde112d7",
+        "key_value": "xyz12345abcd",
+        "created_at": "2023-09-06T05:17:18.752Z",
+        "updated_at": "2023-09-06T10:16:38.425Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b919983c-8931-4668-95fa-0621df5495b5",
+        "email": "Marty_Boyle@gmail.com",
+        "firstName": "Arvid",
+        "lastName": "Ebert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16545273",
+        "tenantId": null
+      },
+      {
+        "reference": "bf4f0b9a-e2fa-4788-adbe-96f823de6565",
+        "email": "Macy95@yahoo.com",
+        "firstName": "Veda",
+        "lastName": "Gislason",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/612.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6092fb41-3173-4703-8b7d-7e171edb7e7d",
+        "email": "Tia94@yahoo.com",
+        "firstName": "Haley",
+        "lastName": "Lakin-Fay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/724.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e8e3647b-5cdd-468e-b483-ed57bcfb016c",
+        "email": "Nils.Bednar79@yahoo.com",
+        "firstName": "Arjun",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/836.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "78180494-9ff6-4a1b-a6e0-19e38fda0f4b",
+        "email": "Dejah_Marks@gmail.com",
+        "firstName": "Daisy",
+        "lastName": "Hilll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/753.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_activity": [
+      {
+        "id": "c392d029-b9ff-4786-a0ea-31e16237caeb",
+        "activity_type": "login",
+        "activity_result": "success",
+        "created_at": "2023-09-06T12:14:01.633Z",
+        "updated_at": "2023-09-06T02:25:13.166Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "520a0f8a-36ad-4639-a3ba-194091bc327d",
+        "activity_type": "signup",
+        "activity_result": "failure",
+        "created_at": "2023-09-05T22:24:59.955Z",
+        "updated_at": "2023-09-05T17:05:08.836Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "824ec240-11f1-4ff5-ba75-6ee89fc5db67",
+        "activity_type": "purchase",
+        "activity_result": "pending",
+        "created_at": "2023-09-06T00:02:49.142Z",
+        "updated_at": "2023-09-06T03:25:15.701Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9acbf2bf-57e8-43f5-83e5-06d378649276",
+        "activity_type": "comment",
+        "activity_result": "completed",
+        "created_at": "2023-09-06T04:19:03.823Z",
+        "updated_at": "2023-09-05T22:57:53.495Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bee21508-1a64-4f97-8386-ae1f4cbeb235",
+        "activity_type": "logout",
+        "activity_result": "error",
+        "created_at": "2023-09-06T11:07:29.661Z",
+        "updated_at": "2023-09-06T07:46:33.424Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_interaction": [
+      {
+        "id": "6b0d429f-e9ae-40e9-bd39-d7c7556bf947",
+        "interaction_type": "phone call",
+        "interaction_result": "resolved",
+        "created_at": "2023-09-05T23:29:01.991Z",
+        "updated_at": "2023-09-05T22:54:45.176Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c967b03-39c8-4fca-8ef7-d3b78dd9ddfc",
+        "interaction_type": "email inquiry",
+        "interaction_result": "escalated",
+        "created_at": "2023-09-06T00:28:58.119Z",
+        "updated_at": "2023-09-06T14:20:46.868Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "274b682e-1b8d-43c0-9d1a-c50afbbfc8e7",
+        "interaction_type": "live chat",
+        "interaction_result": "pending",
+        "created_at": "2023-09-06T15:33:25.274Z",
+        "updated_at": "2023-09-06T08:14:21.224Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "008aa951-3692-4edd-8785-a5b17fd5d239",
+        "interaction_type": "social media message",
+        "interaction_result": "closed",
+        "created_at": "2023-09-06T07:11:40.853Z",
+        "updated_at": "2023-09-05T20:00:26.820Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3844798e-b136-4787-bbc6-fa7d2c6b068c",
+        "interaction_type": "in-person meeting",
+        "interaction_result": "unresolved",
+        "created_at": "2023-09-06T07:36:07.264Z",
+        "updated_at": "2023-09-06T02:07:47.823Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat_gpt_prompt": [
+      {
+        "id": "10df0bd2-2fb6-446e-92c9-47aef7412bd6",
+        "prompt_text": "Tell me a joke",
+        "created_at": "2023-09-06T04:39:47.838Z",
+        "updated_at": "2023-09-06T13:46:03.451Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96e42350-d5fb-4143-97dc-dd560750bda8",
+        "prompt_text": "What is the meaning of life?",
+        "created_at": "2023-09-06T14:28:33.189Z",
+        "updated_at": "2023-09-05T17:28:27.034Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13284ac6-89c6-49d7-864e-25c23b686287",
+        "prompt_text": "Recommend a book to read",
+        "created_at": "2023-09-06T06:32:26.261Z",
+        "updated_at": "2023-09-06T12:36:13.274Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1fcf690c-91ba-412d-9ae8-6df5ec0c13cd",
+        "prompt_text": "Describe your favorite vacation spot",
+        "created_at": "2023-09-06T14:43:40.523Z",
+        "updated_at": "2023-09-06T08:17:38.444Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b78a520-9941-4712-bcda-a8e7de58fd84",
+        "prompt_text": "What is your favorite movie?",
+        "created_at": "2023-09-06T08:52:45.365Z",
+        "updated_at": "2023-09-06T08:50:00.746Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "api_key": [
+      {
+        "id": "53b8dfb2-c8e4-4519-893a-d9246aa2beab",
+        "key_value": "a1b2c3d4e5",
+        "created_at": "2023-09-06T14:04:23.105Z",
+        "updated_at": "2023-09-06T11:31:48.717Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f42f92a0-606c-4574-968a-33f11f6dfaec",
+        "key_value": "f6g7h8i9j0",
+        "created_at": "2023-09-06T11:59:20.477Z",
+        "updated_at": "2023-09-06T14:12:59.390Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93ee223a-5a2c-4f5e-a885-b0b0dcdb0759",
+        "key_value": "k1l2m3n4o5",
+        "created_at": "2023-09-05T20:34:53.326Z",
+        "updated_at": "2023-09-06T03:12:28.271Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "926d1aa5-78e3-4d63-a563-1ca390f14e53",
+        "key_value": "p6q7r8s9t0",
+        "created_at": "2023-09-06T05:23:16.466Z",
+        "updated_at": "2023-09-06T15:27:32.507Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4ba2e88-7935-48d3-99a4-22f93bdf851d",
+        "key_value": "u1v2w3x4y5",
+        "created_at": "2023-09-06T05:10:36.212Z",
+        "updated_at": "2023-09-05T21:58:25.217Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "49b72125-3d4b-4305-ab99-c0ff86f62cc3",
+        "email": "Ole.Morissette33@hotmail.com",
+        "firstName": "Gino",
+        "lastName": "Upton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1108.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cebc3f95-a323-4848-872c-97767f934ee8",
+        "email": "Aidan.Klein72@hotmail.com",
+        "firstName": "Augustine",
+        "lastName": "Crist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4080992",
+        "tenantId": null
+      },
+      {
+        "reference": "20b0f212-2ca3-4ebc-abc1-ee81795662bf",
+        "email": "Deondre15@gmail.com",
+        "firstName": "Alford",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80710263",
+        "tenantId": null
+      },
+      {
+        "reference": "2fdf87c0-0f64-4064-8a38-2d4b94f5324a",
+        "email": "Roxanne52@hotmail.com",
+        "firstName": "Elena",
+        "lastName": "Reinger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/662.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0ac16856-d51c-4f4d-8a9a-e1e1e784e06a",
+        "email": "Elinor_Rippin69@hotmail.com",
+        "firstName": "Hoyt",
+        "lastName": "Jakubowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44718543",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_activity": [
+      {
+        "id": "ca1b4eeb-fd6b-4b78-b57b-e46ddc5b91ce",
+        "activity_type": "Login",
+        "activity_result": "Success",
+        "created_at": "2023-09-06T01:46:56.801Z",
+        "updated_at": "2023-09-05T19:20:25.892Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c322992-ca39-4d1e-ad94-20370a5e4ad1",
+        "activity_type": "Logout",
+        "activity_result": "Failure",
+        "created_at": "2023-09-05T19:00:56.042Z",
+        "updated_at": "2023-09-06T02:56:20.275Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3130dd9f-ee20-49dd-b002-34babc3a4955",
+        "activity_type": "Post",
+        "activity_result": "Pending",
+        "created_at": "2023-09-06T16:26:50.343Z",
+        "updated_at": "2023-09-05T19:43:25.137Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ebfa76ed-66bc-4ada-ac5e-553053736cbe",
+        "activity_type": "Comment",
+        "activity_result": "Approved",
+        "created_at": "2023-09-05T17:54:27.543Z",
+        "updated_at": "2023-09-06T05:18:40.785Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c8cc334-32c7-47bb-a4c6-ced00c4cf8f2",
+        "activity_type": "Like",
+        "activity_result": "Rejected",
+        "created_at": "2023-09-05T20:50:35.316Z",
+        "updated_at": "2023-09-06T08:44:06.605Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_interaction": [
+      {
+        "id": "3d4ec979-e20e-449f-819f-9aefd8c9b203",
+        "interaction_type": "Phone Call",
+        "interaction_result": "Resolved",
+        "created_at": "2023-09-06T01:35:52.460Z",
+        "updated_at": "2023-09-06T05:38:20.093Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69fde7b5-b4de-4fab-9c4c-6f4e81e7d44f",
+        "interaction_type": "Email",
+        "interaction_result": "Pending",
+        "created_at": "2023-09-05T18:29:05.895Z",
+        "updated_at": "2023-09-06T13:10:14.991Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82999d50-a9d7-46a8-a21b-6e3879d6e15f",
+        "interaction_type": "Meeting",
+        "interaction_result": "Cancelled",
+        "created_at": "2023-09-06T06:42:43.352Z",
+        "updated_at": "2023-09-05T20:20:28.133Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "45a6c1f1-b654-48e7-a8a6-83e58a2b9b24",
+        "interaction_type": "Live Chat",
+        "interaction_result": "Follow-up Required",
+        "created_at": "2023-09-06T05:15:45.684Z",
+        "updated_at": "2023-09-06T11:36:45.441Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3c5b6ea-8807-4c6f-b87b-e8dc7433dc5e",
+        "interaction_type": "Video Conference",
+        "interaction_result": "Satisfied",
+        "created_at": "2023-09-06T10:42:42.558Z",
+        "updated_at": "2023-09-06T04:08:05.490Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat_gpt_prompt": [
+      {
+        "id": "11a709c3-7b69-4cb3-9adc-82f7e3c91451",
+        "prompt_text": "Tell me a joke",
+        "created_at": "2023-09-05T16:47:51.978Z",
+        "updated_at": "2023-09-05T22:06:30.076Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec167588-6bb2-4130-8181-0192583a6b6f",
+        "prompt_text": "What's the weather like today?",
+        "created_at": "2023-09-06T03:08:15.741Z",
+        "updated_at": "2023-09-05T17:37:21.976Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a749e74-1ed1-4597-92b4-2086cd9d5c6f",
+        "prompt_text": "Can you recommend a good restaurant?",
+        "created_at": "2023-09-06T06:51:20.221Z",
+        "updated_at": "2023-09-06T11:57:19.154Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2e7d4eb-16bd-47c4-91ec-17b9969729b4",
+        "prompt_text": "How do I reset my password?",
+        "created_at": "2023-09-05T23:51:08.900Z",
+        "updated_at": "2023-09-05T23:38:31.177Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "953ad3b0-e784-442f-9d60-6ed3e4bff4bd",
+        "prompt_text": "What's the capital of France?",
+        "created_at": "2023-09-06T07:27:12.677Z",
+        "updated_at": "2023-09-06T06:11:38.609Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "api_key": [
+      {
+        "id": "d3aab955-68ac-4724-820f-eeea4492da27",
+        "key_value": "abc123",
+        "created_at": "2023-09-05T17:42:18.399Z",
+        "updated_at": "2023-09-05T21:08:48.528Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c59259f-7105-48b7-8df0-08fdeac0cc3d",
+        "key_value": "xyz456",
+        "created_at": "2023-09-05T19:33:56.795Z",
+        "updated_at": "2023-09-05T17:21:28.397Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2fb8d1c-e953-49d4-80ff-11a010f0bf05",
+        "key_value": "123abc",
+        "created_at": "2023-09-06T04:11:47.565Z",
+        "updated_at": "2023-09-06T06:27:28.055Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf03a16e-1eb5-403d-9a96-b0e3d534eea8",
+        "key_value": "456xyz",
+        "created_at": "2023-09-05T21:47:29.037Z",
+        "updated_at": "2023-09-06T11:47:31.786Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4192e44d-523b-4386-a6c1-a2cda49df4ec",
+        "key_value": "qwerty",
+        "created_at": "2023-09-05T23:37:48.213Z",
+        "updated_at": "2023-09-05T22:47:55.962Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d496b736-5229-49c6-9d72-ab5ae652878a",
+        "email": "Jay_Koch-Jerde@yahoo.com",
+        "firstName": "Tod",
+        "lastName": "Mann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/284.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a7f6d13c-8123-4be0-bea0-58b5cc57f634",
+        "email": "Guiseppe.Rath@yahoo.com",
+        "firstName": "Adelle",
+        "lastName": "Green",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1221.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e1b1f6b8-bf76-4b74-8d2d-aeda09f7048c",
+        "email": "Constance85@hotmail.com",
+        "firstName": "Tess",
+        "lastName": "Murray",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/984.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "de63ec92-2516-41f9-87db-19d4cfaf30c9",
+        "email": "Miguel.Douglas@gmail.com",
+        "firstName": "Anibal",
+        "lastName": "Runte",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75043151",
+        "tenantId": null
+      },
+      {
+        "reference": "d9ba491d-9ff3-4371-ba54-b529351073c7",
+        "email": "Colby_Emard42@hotmail.com",
+        "firstName": "Eve",
+        "lastName": "Wilkinson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/212.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_activity": [
+      {
+        "id": "8a2f5540-6ff9-4cbb-b3c4-64eea054ef25",
+        "activity_type": "login",
+        "activity_result": "success",
+        "created_at": "2023-09-06T04:53:15.946Z",
+        "updated_at": "2023-09-05T19:05:57.501Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d1db6fd-24c0-4c9f-898d-f796e029fe43",
+        "activity_type": "logout",
+        "activity_result": "failure",
+        "created_at": "2023-09-06T11:35:40.967Z",
+        "updated_at": "2023-09-05T22:34:07.497Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a425198-1bed-41e3-a406-b291425d1219",
+        "activity_type": "create",
+        "activity_result": "pending",
+        "created_at": "2023-09-06T10:02:03.534Z",
+        "updated_at": "2023-09-06T12:09:49.408Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ee30406-bda6-429a-a174-8c3918389349",
+        "activity_type": "update",
+        "activity_result": "completed",
+        "created_at": "2023-09-05T20:06:39.801Z",
+        "updated_at": "2023-09-05T21:47:11.666Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "55bdbddc-860f-4834-a8d9-b0c220d1f5c0",
+        "activity_type": "delete",
+        "activity_result": "error",
+        "created_at": "2023-09-05T16:52:01.331Z",
+        "updated_at": "2023-09-06T05:23:00.662Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_interaction": [
+      {
+        "id": "c0cb4db0-564b-47b2-9a2b-89e0a70d446d",
+        "interaction_type": "phone call",
+        "interaction_result": "resolved issue",
+        "created_at": "2023-09-06T08:53:46.103Z",
+        "updated_at": "2023-09-05T23:36:07.135Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "542e579d-e603-4fa9-b3a2-a18b18889d92",
+        "interaction_type": "email conversation",
+        "interaction_result": "escalated to supervisor",
+        "created_at": "2023-09-06T05:12:17.546Z",
+        "updated_at": "2023-09-06T01:38:43.496Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6cc12719-2b29-49cc-87c9-69e6c7e61933",
+        "interaction_type": "in-person meeting",
+        "interaction_result": "follow-up required",
+        "created_at": "2023-09-05T23:24:41.364Z",
+        "updated_at": "2023-09-06T01:52:31.148Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16757611-7d4f-405b-97e6-4851a2f2239c",
+        "interaction_type": "live chat",
+        "interaction_result": "customer satisfaction",
+        "created_at": "2023-09-06T12:16:05.474Z",
+        "updated_at": "2023-09-06T06:41:11.434Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4b9a426-2335-46e3-9e0a-e9166f794c1c",
+        "interaction_type": "video conference",
+        "interaction_result": "technical support provided",
+        "created_at": "2023-09-05T22:49:17.085Z",
+        "updated_at": "2023-09-06T07:53:24.207Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat_gpt_prompt": [
+      {
+        "id": "0e607822-b58d-4df0-9560-053e8b83bda0",
+        "prompt_text": "Tell me a joke.",
+        "created_at": "2023-09-06T04:24:14.256Z",
+        "updated_at": "2023-09-06T04:27:20.179Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b246039-e693-467c-a9d4-9c35de632c0d",
+        "prompt_text": "What's the weather like today?",
+        "created_at": "2023-09-06T09:52:15.488Z",
+        "updated_at": "2023-09-06T03:05:32.639Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e76f95c6-4366-4b36-87a8-ff1e8a6f41cc",
+        "prompt_text": "Can you recommend a good book?",
+        "created_at": "2023-09-06T04:53:47.052Z",
+        "updated_at": "2023-09-06T13:10:24.700Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3eacd86c-f29e-4d53-922f-c652b48da930",
+        "prompt_text": "How do I bake a cake?",
+        "created_at": "2023-09-05T18:07:40.726Z",
+        "updated_at": "2023-09-06T12:20:38.592Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b7d6a0ce-8ed6-465e-9ae1-b81f6e9e1867",
+        "prompt_text": "Tell me about yourself.",
+        "created_at": "2023-09-05T17:31:20.125Z",
+        "updated_at": "2023-09-06T15:42:29.522Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "api_key": [
+      {
+        "id": "f9f91c73-8711-46ad-b1f8-50ea04b9cb5c",
+        "key_value": "abcd1234",
+        "created_at": "2023-09-06T08:59:23.291Z",
+        "updated_at": "2023-09-06T15:46:08.414Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c463845a-572f-43e1-9e15-b64a69ec0526",
+        "key_value": "efgh5678",
+        "created_at": "2023-09-06T00:29:36.852Z",
+        "updated_at": "2023-09-05T21:36:36.573Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b1dc2f5-a725-48d1-bf66-9cc38a099988",
+        "key_value": "ijkl9012",
+        "created_at": "2023-09-06T14:20:56.574Z",
+        "updated_at": "2023-09-06T10:10:28.807Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2d3dffe-a04f-42f3-859a-7aa07eca4964",
+        "key_value": "mnop3456",
+        "created_at": "2023-09-06T10:57:18.187Z",
+        "updated_at": "2023-09-05T17:13:34.954Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af2384f4-9c17-4d5b-a235-d20af7356010",
+        "key_value": "qrst7890",
+        "created_at": "2023-09-06T04:05:52.348Z",
+        "updated_at": "2023-09-06T00:22:24.736Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "12008b36-549d-4118-9efa-5a27f4e06ffe",
+        "email": "Esther51@hotmail.com",
+        "firstName": "Elias",
+        "lastName": "Parker-Turcotte",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19422539",
+        "tenantId": null
+      },
+      {
+        "reference": "9f202bb5-0814-4f51-aaef-54c3c5db67b0",
+        "email": "Kiel_Nikolaus81@yahoo.com",
+        "firstName": "Zoila",
+        "lastName": "Keeling-Schultz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51798944",
+        "tenantId": null
+      },
+      {
+        "reference": "79c8b196-44b7-49f0-9411-6bb65202f3d9",
+        "email": "Raheem67@gmail.com",
+        "firstName": "Devan",
+        "lastName": "Ortiz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1100.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "af753ee1-06ab-4b79-a83d-80a4ffdc87c8",
+        "email": "Sonny49@yahoo.com",
+        "firstName": "Gwen",
+        "lastName": "Schinner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63435099",
+        "tenantId": null
+      },
+      {
+        "reference": "75318bfc-79c2-4d47-8a31-ce1bbf1d8693",
+        "email": "Donny.Bradtke@hotmail.com",
+        "firstName": "Katheryn",
+        "lastName": "Waters",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/618.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_activity": [
+      {
+        "id": "9789ad45-3b8a-4703-acce-1011c0f6e9ee",
+        "activity_type": "login",
+        "activity_result": "success",
+        "created_at": "2023-09-06T06:09:46.885Z",
+        "updated_at": "2023-09-06T08:04:02.314Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c30aa8b0-ca46-42c9-a6e0-f64bbdf18016",
+        "activity_type": "logout",
+        "activity_result": "failure",
+        "created_at": "2023-09-05T18:31:06.207Z",
+        "updated_at": "2023-09-06T13:56:39.611Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17f3a9f6-961f-4335-99b3-3a2cecf42d85",
+        "activity_type": "create",
+        "activity_result": "in progress",
+        "created_at": "2023-09-06T00:05:47.235Z",
+        "updated_at": "2023-09-06T14:50:24.541Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "352d3b8f-0be4-4ddf-9ea7-497c64e50030",
+        "activity_type": "update",
+        "activity_result": "completed",
+        "created_at": "2023-09-06T03:03:58.467Z",
+        "updated_at": "2023-09-05T21:14:26.816Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f394c163-8235-4a10-a371-fc484bef510a",
+        "activity_type": "delete",
+        "activity_result": "error",
+        "created_at": "2023-09-06T03:50:59.259Z",
+        "updated_at": "2023-09-06T10:37:46.419Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_interaction": [
+      {
+        "id": "9aab512f-ebf1-47da-9fc4-09f87423acc6",
+        "interaction_type": "phone call",
+        "interaction_result": "resolved issue",
+        "created_at": "2023-09-06T08:15:53.163Z",
+        "updated_at": "2023-09-06T05:24:17.790Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "50bebd38-6e68-46c9-a8c4-dca85e6d746b",
+        "interaction_type": "email inquiry",
+        "interaction_result": "escalated to management",
+        "created_at": "2023-09-05T18:33:34.460Z",
+        "updated_at": "2023-09-06T08:04:44.364Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9197fb5-c2ca-4f76-b2e1-6e174d56d897",
+        "interaction_type": "live chat",
+        "interaction_result": "provided information",
+        "created_at": "2023-09-05T20:50:18.664Z",
+        "updated_at": "2023-09-06T15:07:16.239Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa491b63-5ec5-46d7-9237-fdebba7570a8",
+        "interaction_type": "in-person meeting",
+        "interaction_result": "scheduled follow-up",
+        "created_at": "2023-09-06T12:32:36.106Z",
+        "updated_at": "2023-09-05T16:59:27.175Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0e5ab06-6889-486d-bc03-142e84cb11df",
+        "interaction_type": "webinar",
+        "interaction_result": "requested further details",
+        "created_at": "2023-09-05T19:20:58.131Z",
+        "updated_at": "2023-09-06T09:33:39.033Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat_gpt_prompt": [
+      {
+        "id": "5bd406d9-27b8-43c0-8595-831aed0b654f",
+        "prompt_text": "Generate a creative story",
+        "created_at": "2023-09-06T02:28:46.694Z",
+        "updated_at": "2023-09-05T22:27:43.713Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b11fd039-7551-4bde-b819-8fc94f34db24",
+        "prompt_text": "Write a poem about nature",
+        "created_at": "2023-09-05T21:47:53.330Z",
+        "updated_at": "2023-09-06T08:12:15.967Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dee49464-eadf-4edf-93ef-2a66627692cd",
+        "prompt_text": "Describe your dream vacation",
+        "created_at": "2023-09-06T01:41:12.583Z",
+        "updated_at": "2023-09-06T15:46:11.061Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f5fb69b-230a-4c41-985a-c5ba3726f493",
+        "prompt_text": "Design a futuristic city",
+        "created_at": "2023-09-06T13:51:34.996Z",
+        "updated_at": "2023-09-06T04:45:55.020Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f38686c3-1d89-422f-ac66-586562889b40",
+        "prompt_text": "Invent a new superhero",
+        "created_at": "2023-09-06T16:16:04.153Z",
+        "updated_at": "2023-09-06T05:27:01.703Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "api_key": [
+      {
+        "id": "73c6e33d-2fc5-44f1-ac26-07eb4f98c760",
+        "key_value": "abc123xyz",
+        "created_at": "2023-09-05T17:01:49.598Z",
+        "updated_at": "2023-09-06T11:37:19.527Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d2a1aa7-1dbc-4f96-83ab-ce2d9f67a8a2",
+        "key_value": "def456uvw",
+        "created_at": "2023-09-05T21:36:35.664Z",
+        "updated_at": "2023-09-06T05:17:50.892Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3daadb31-56d6-4ec3-a5c6-45b3904cb95a",
+        "key_value": "ghi789rst",
+        "created_at": "2023-09-06T04:09:39.671Z",
+        "updated_at": "2023-09-06T02:20:09.792Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "090c261b-758e-4432-b7cc-b4fd461a4fbf",
+        "key_value": "jkl012mno",
+        "created_at": "2023-09-05T17:14:42.360Z",
+        "updated_at": "2023-09-06T02:34:27.319Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c91e369e-b169-4746-a0c4-75acc1cc7e82",
+        "key_value": "pqr345efg",
+        "created_at": "2023-09-06T10:24:33.304Z",
+        "updated_at": "2023-09-05T22:04:46.300Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3064f359-e1db-4c13-a0ba-09031c432037",
+        "email": "Devante.Kautzer@hotmail.com",
+        "firstName": "Agustina",
+        "lastName": "Emard",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/889.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "da640e5d-5401-4dfb-89b3-d08c229b897a",
+        "email": "London.Medhurst60@yahoo.com",
+        "firstName": "Floyd",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8002303",
+        "tenantId": null
+      },
+      {
+        "reference": "b9a6728f-77b3-4c13-842f-b1b1738819a0",
+        "email": "Chasity42@gmail.com",
+        "firstName": "Dejah",
+        "lastName": "Hackett",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55280002",
+        "tenantId": null
+      },
+      {
+        "reference": "a642256a-17ed-4bf7-8272-54b9a43d2aab",
+        "email": "Ana.Feil@hotmail.com",
+        "firstName": "Ivory",
+        "lastName": "D'Amore",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/117.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "64191322-f9a6-4b5d-8341-ee239b636ce9",
+        "email": "Dasia61@yahoo.com",
+        "firstName": "Leda",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5113700",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_activity": [
+      {
+        "id": "68462046-5318-43ee-934e-117460cabf5f",
+        "activity_type": "login",
+        "activity_result": "success",
+        "created_at": "2023-09-06T08:23:02.330Z",
+        "updated_at": "2023-09-06T12:42:46.704Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96170918-e2dd-451d-9585-83b3bb8d8073",
+        "activity_type": "logout",
+        "activity_result": "failure",
+        "created_at": "2023-09-05T17:07:23.292Z",
+        "updated_at": "2023-09-06T05:42:55.651Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2dab52e-0d81-4bb2-ae4a-0a272e8676d8",
+        "activity_type": "post",
+        "activity_result": "pending",
+        "created_at": "2023-09-05T18:43:09.839Z",
+        "updated_at": "2023-09-06T08:56:44.291Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7071f1dc-17de-4a4e-a2bb-d4bce1b707e4",
+        "activity_type": "comment",
+        "activity_result": "completed",
+        "created_at": "2023-09-05T19:06:51.735Z",
+        "updated_at": "2023-09-06T06:02:09.451Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ec304f9-0381-468b-819c-f9ef5a2cfdd1",
+        "activity_type": "like",
+        "activity_result": "canceled",
+        "created_at": "2023-09-06T09:09:45.066Z",
+        "updated_at": "2023-09-05T20:14:45.078Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_interaction": [
+      {
+        "id": "2f99fc77-4286-4d73-be98-c806d576b978",
+        "interaction_type": "phone call",
+        "interaction_result": "resolved",
+        "created_at": "2023-09-05T17:49:54.077Z",
+        "updated_at": "2023-09-06T08:51:10.987Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79da578a-0484-4fdf-b769-9727d58d179d",
+        "interaction_type": "email inquiry",
+        "interaction_result": "escalated",
+        "created_at": "2023-09-06T14:24:38.332Z",
+        "updated_at": "2023-09-06T08:44:14.577Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3c4bbba-6da1-434e-9553-6938a7a3c041",
+        "interaction_type": "live chat",
+        "interaction_result": "pending",
+        "created_at": "2023-09-06T15:20:08.096Z",
+        "updated_at": "2023-09-06T16:13:42.353Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82a6b328-964e-430d-b02f-7415fc486930",
+        "interaction_type": "in-person meeting",
+        "interaction_result": "closed",
+        "created_at": "2023-09-06T04:28:16.405Z",
+        "updated_at": "2023-09-06T04:12:04.211Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09fe5f3d-a8bb-421c-ab2c-1ba3293764c8",
+        "interaction_type": "webinar",
+        "interaction_result": "satisfied",
+        "created_at": "2023-09-05T18:15:06.551Z",
+        "updated_at": "2023-09-06T08:51:24.863Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat_gpt_prompt": [
+      {
+        "id": "2e8cc2d9-5087-4567-8d17-91d05e90917f",
+        "prompt_text": "Tell me a joke",
+        "created_at": "2023-09-06T02:19:34.629Z",
+        "updated_at": "2023-09-05T17:42:36.250Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9e77f54-86d4-46cb-96f6-6705318d296e",
+        "prompt_text": "What is the meaning of life?",
+        "created_at": "2023-09-05T19:29:57.691Z",
+        "updated_at": "2023-09-05T19:39:27.170Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65688616-920a-4a08-913c-dfc71a8ee1ba",
+        "prompt_text": "How can I improve my coding skills?",
+        "created_at": "2023-09-06T06:45:57.964Z",
+        "updated_at": "2023-09-06T13:32:35.066Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e17c03b-7bac-4a57-b79a-8cdee27e4b1f",
+        "prompt_text": "Recommend a good book",
+        "created_at": "2023-09-06T03:55:39.651Z",
+        "updated_at": "2023-09-06T07:11:31.178Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "484997ee-5f51-4e4f-b5b9-e65d8d9c341c",
+        "prompt_text": "What is the best travel destination?",
+        "created_at": "2023-09-06T06:48:21.512Z",
+        "updated_at": "2023-09-06T14:18:51.564Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "api_key": [
+      {
+        "id": "339cd3aa-4f9f-4049-9221-9c277e635a20",
+        "key_value": "a1b2c3d4e5",
+        "created_at": "2023-09-06T03:42:07.804Z",
+        "updated_at": "2023-09-05T18:29:49.313Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a91fa231-df2b-436c-a055-44c73b33abcd",
+        "key_value": "f6g7h8i9j0",
+        "created_at": "2023-09-06T07:24:32.999Z",
+        "updated_at": "2023-09-06T13:16:33.673Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ae04b5d-61c4-4a09-9eba-c6977787a94f",
+        "key_value": "k1l2m3n4o5",
+        "created_at": "2023-09-05T17:36:45.272Z",
+        "updated_at": "2023-09-06T14:08:51.493Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d260fb4-9576-4229-a63c-e641dd71c0bf",
+        "key_value": "p6q7r8s9t0",
+        "created_at": "2023-09-06T05:20:25.996Z",
+        "updated_at": "2023-09-06T06:32:49.619Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94393729-12b2-4a06-9ea4-97a33a29890d",
+        "key_value": "u1v2w3x4y5",
+        "created_at": "2023-09-06T12:03:42.195Z",
+        "updated_at": "2023-09-06T00:13:49.204Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ef161a7a-c274-424f-9985-c9cebd227b12",
+        "email": "Candida11@yahoo.com",
+        "firstName": "Cornell",
+        "lastName": "Price",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68055601",
+        "tenantId": null
+      },
+      {
+        "reference": "f2e2396c-061b-4479-84ca-0a6081b26165",
+        "email": "Pearlie_Dibbert5@yahoo.com",
+        "firstName": "Shanel",
+        "lastName": "Abernathy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49420911",
+        "tenantId": null
+      },
+      {
+        "reference": "71f0ff5f-278b-490c-b46b-74de29497ed7",
+        "email": "Ed9@gmail.com",
+        "firstName": "Mckayla",
+        "lastName": "Nienow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20390200",
+        "tenantId": null
+      },
+      {
+        "reference": "dcb9d46a-48b8-43ba-a58e-6d09bedbe641",
+        "email": "Elisa26@hotmail.com",
+        "firstName": "Sid",
+        "lastName": "McClure",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57631853",
+        "tenantId": null
+      },
+      {
+        "reference": "ad4bcbcc-5bb4-449d-9b83-6f8fbbcacb6a",
+        "email": "Luna56@yahoo.com",
+        "firstName": "Pascale",
+        "lastName": "Jacobi",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/105.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_activity": [
+      {
+        "id": "a2777193-22ec-4529-954e-d52215ec5363",
+        "activity_type": "login",
+        "activity_result": "success",
+        "created_at": "2023-09-06T01:31:33.653Z",
+        "updated_at": "2023-09-06T12:59:11.358Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47f21c99-76f2-492a-bc9d-4b826ef453a3",
+        "activity_type": "logout",
+        "activity_result": "failure",
+        "created_at": "2023-09-06T09:10:49.256Z",
+        "updated_at": "2023-09-06T01:36:23.084Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ecdecdf3-a01d-47e0-a939-f2c58b8d06d9",
+        "activity_type": "create",
+        "activity_result": "in progress",
+        "created_at": "2023-09-06T15:27:30.628Z",
+        "updated_at": "2023-09-06T12:55:31.233Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "070c29e1-4d4b-433b-b08e-f7691143b93a",
+        "activity_type": "update",
+        "activity_result": "completed",
+        "created_at": "2023-09-06T03:15:31.944Z",
+        "updated_at": "2023-09-06T09:30:19.851Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28640e03-0f4e-4649-bc91-3e72deb5dc8f",
+        "activity_type": "delete",
+        "activity_result": "canceled",
+        "created_at": "2023-09-06T14:45:57.555Z",
+        "updated_at": "2023-09-06T15:01:02.042Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_interaction": [
+      {
+        "id": "a545e182-4f94-4a10-9f9c-deb864563a39",
+        "interaction_type": "phone call",
+        "interaction_result": "resolved issue",
+        "created_at": "2023-09-06T02:13:09.144Z",
+        "updated_at": "2023-09-05T21:00:00.886Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ce739bd-9413-4c22-b572-62994b459b9b",
+        "interaction_type": "email conversation",
+        "interaction_result": "escalated to supervisor",
+        "created_at": "2023-09-05T23:19:54.406Z",
+        "updated_at": "2023-09-05T21:31:32.491Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a01d6623-64ac-4f22-85c6-283eae0a6024",
+        "interaction_type": "live chat",
+        "interaction_result": "follow-up required",
+        "created_at": "2023-09-05T18:12:59.278Z",
+        "updated_at": "2023-09-06T11:21:01.057Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0dded9d1-c253-4f1c-b479-473349bb38c1",
+        "interaction_type": "in-person meeting",
+        "interaction_result": "customer satisfaction",
+        "created_at": "2023-09-05T23:45:00.748Z",
+        "updated_at": "2023-09-06T13:50:00.089Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5edf10b-ee58-4ee3-a9c0-a54d6be9daf9",
+        "interaction_type": "video conference",
+        "interaction_result": "unresolved issue",
+        "created_at": "2023-09-05T19:50:13.179Z",
+        "updated_at": "2023-09-06T16:06:50.236Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat_gpt_prompt": [
+      {
+        "id": "005d99d3-29e9-44cb-890e-d3dacc76e1bc",
+        "prompt_text": "Tell me a joke.",
+        "created_at": "2023-09-06T14:56:04.436Z",
+        "updated_at": "2023-09-06T08:20:06.494Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3adb1b2-d2cd-4233-9a63-28e87b9df7fd",
+        "prompt_text": "What's the weather like today?",
+        "created_at": "2023-09-05T18:35:08.117Z",
+        "updated_at": "2023-09-06T00:06:31.863Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7125d217-6653-4c95-bd22-64a8d194993f",
+        "prompt_text": "Recommend a book to read.",
+        "created_at": "2023-09-06T10:40:50.225Z",
+        "updated_at": "2023-09-05T17:08:54.712Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00628168-1faa-4792-9249-979a4a4c3fe3",
+        "prompt_text": "How do I bake a cake?",
+        "created_at": "2023-09-05T18:23:11.615Z",
+        "updated_at": "2023-09-06T00:26:34.731Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65ad1f43-7e82-42c2-a3c0-9541863c999d",
+        "prompt_text": "Tell me a fun fact.",
+        "created_at": "2023-09-06T16:08:15.565Z",
+        "updated_at": "2023-09-06T05:29:01.804Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "api_key": [
+      {
+        "id": "21afb3de-fd16-4b5a-a48f-0c1b35aa93b1",
+        "key_value": "abcd1234",
+        "created_at": "2023-09-05T21:26:39.508Z",
+        "updated_at": "2023-09-06T05:21:42.145Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a94a59db-2310-499f-9b0f-593f767c048b",
+        "key_value": "efgh5678",
+        "created_at": "2023-09-06T01:31:34.870Z",
+        "updated_at": "2023-09-06T04:14:20.844Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d81c584a-2de2-4c6e-ad26-29af46cdc6df",
+        "key_value": "ijkl9012",
+        "created_at": "2023-09-06T08:58:12.478Z",
+        "updated_at": "2023-09-05T22:38:40.336Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87ec71b2-e21e-4289-b6bf-ee146a560dba",
+        "key_value": "mnop3456",
+        "created_at": "2023-09-06T07:27:06.912Z",
+        "updated_at": "2023-09-05T22:02:03.908Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ac6f8ee-953a-41d6-9c69-58a282686114",
+        "key_value": "qrst7890",
+        "created_at": "2023-09-06T12:27:43.941Z",
+        "updated_at": "2023-09-05T19:39:23.491Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "62a3ef28-a7bb-4849-a795-b5a16483a321",
+        "email": "Presley_Fisher19@hotmail.com",
+        "firstName": "Kari",
+        "lastName": "Kerluke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80825006",
+        "tenantId": null
+      },
+      {
+        "reference": "fdd9794b-bf69-4c64-ad14-c62d282d54b1",
+        "email": "Luisa53@yahoo.com",
+        "firstName": "Karson",
+        "lastName": "Krajcik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/565.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6fb58167-d2bb-43ab-9814-91e91769d44a",
+        "email": "Sydney_Feil@hotmail.com",
+        "firstName": "Elton",
+        "lastName": "Stiedemann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1086.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "37027235-6d1a-40b4-8571-8dc8c8c13e16",
+        "email": "Cassie_Baumbach@gmail.com",
+        "firstName": "Elmore",
+        "lastName": "Stark",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/77.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2599d8db-8a4f-4aa3-9e78-4c32bd6abb31",
+        "email": "Candace6@gmail.com",
+        "firstName": "Johanna",
+        "lastName": "Grimes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24845370",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_activity": [
+      {
+        "id": "c1facaae-8499-41a8-9b1b-fe9910a69485",
+        "activity_type": "login",
+        "activity_result": "success",
+        "created_at": "2023-09-05T22:10:23.278Z",
+        "updated_at": "2023-09-06T09:34:22.234Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87827cdc-d2eb-4d2b-b833-a143f7a3ee0c",
+        "activity_type": "logout",
+        "activity_result": "failure",
+        "created_at": "2023-09-06T02:09:37.281Z",
+        "updated_at": "2023-09-06T07:57:41.097Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5b01a08-3c5c-405a-b421-6243378da0e2",
+        "activity_type": "create",
+        "activity_result": "pending",
+        "created_at": "2023-09-06T11:50:01.840Z",
+        "updated_at": "2023-09-05T18:24:45.715Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "185b89f4-3f26-4a61-8f2d-c150595b65b8",
+        "activity_type": "update",
+        "activity_result": "completed",
+        "created_at": "2023-09-05T20:29:44.897Z",
+        "updated_at": "2023-09-06T02:38:33.385Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06ba1c04-b8c4-47c3-baba-ef46a0ff220e",
+        "activity_type": "delete",
+        "activity_result": "canceled",
+        "created_at": "2023-09-06T02:20:26.789Z",
+        "updated_at": "2023-09-06T04:51:14.418Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_interaction": [
+      {
+        "id": "2181b705-a295-417e-afa5-bcde51612e68",
+        "interaction_type": "phone call",
+        "interaction_result": "resolved issue",
+        "created_at": "2023-09-06T00:00:22.762Z",
+        "updated_at": "2023-09-05T17:48:45.091Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c635d71a-65e0-4da2-a7ee-6a3bf0fb97bb",
+        "interaction_type": "email communication",
+        "interaction_result": "escalated to supervisor",
+        "created_at": "2023-09-06T00:40:25.689Z",
+        "updated_at": "2023-09-05T20:55:26.092Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24691245-bd32-4594-a4a1-3bf8a7737b98",
+        "interaction_type": "in-person meeting",
+        "interaction_result": "follow-up required",
+        "created_at": "2023-09-06T14:32:09.471Z",
+        "updated_at": "2023-09-05T17:59:24.820Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b4d1b81-0732-42cf-855a-45639ea18b13",
+        "interaction_type": "web chat",
+        "interaction_result": "customer satisfied",
+        "created_at": "2023-09-05T21:30:31.447Z",
+        "updated_at": "2023-09-06T11:50:53.196Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "582c8990-a530-405c-a573-82255760afac",
+        "interaction_type": "video conference",
+        "interaction_result": "customer dissatisfied",
+        "created_at": "2023-09-06T07:44:46.360Z",
+        "updated_at": "2023-09-06T03:31:42.586Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat_gpt_prompt": [
+      {
+        "id": "61440037-b00a-4bd6-afa7-00c3fd020b39",
+        "prompt_text": "Generate a creative story",
+        "created_at": "2023-09-06T03:56:39.990Z",
+        "updated_at": "2023-09-06T05:06:12.814Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef2eac8f-9830-46ad-88ec-25bea389eaf1",
+        "prompt_text": "Describe your dream vacation",
+        "created_at": "2023-09-06T10:16:33.078Z",
+        "updated_at": "2023-09-06T03:54:16.777Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f50766eb-f576-4aab-b0ba-3f2dea7c897c",
+        "prompt_text": "Design a futuristic city",
+        "created_at": "2023-09-06T06:42:58.132Z",
+        "updated_at": "2023-09-06T06:40:39.689Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd356398-73f8-49f3-b719-4e74de0a1ab0",
+        "prompt_text": "Write a poem about nature",
+        "created_at": "2023-09-05T23:31:19.964Z",
+        "updated_at": "2023-09-06T11:52:28.928Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "228864cb-bc90-4d42-b000-518918b280ad",
+        "prompt_text": "Imagine a world without technology",
+        "created_at": "2023-09-06T02:10:21.223Z",
+        "updated_at": "2023-09-06T09:27:14.608Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "api_key": [
+      {
+        "id": "ba4d6537-cade-4c03-8e8b-4da677290f07",
+        "key_value": "a1b2c3d4e5f6",
+        "created_at": "2023-09-06T12:59:42.572Z",
+        "updated_at": "2023-09-05T18:55:46.505Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59f42df2-d5c8-4c75-8c47-0692c2af1cd0",
+        "key_value": "g7h8i9j0k1l2",
+        "created_at": "2023-09-06T14:46:43.757Z",
+        "updated_at": "2023-09-05T19:17:18.101Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f97c2cc-febb-4dc1-9fe6-790827c747f2",
+        "key_value": "m3n4o5p6q7r8",
+        "created_at": "2023-09-06T07:18:42.689Z",
+        "updated_at": "2023-09-06T15:19:07.513Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5967087f-a7ef-4fa0-93e5-ebb31a32a8aa",
+        "key_value": "s9t0u1v2w3x4",
+        "created_at": "2023-09-06T14:16:36.080Z",
+        "updated_at": "2023-09-06T09:43:28.445Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6cd41862-0015-433f-b3f6-12c4eec961a7",
+        "key_value": "y5z6a7b8c9d0",
+        "created_at": "2023-09-06T12:30:45.072Z",
+        "updated_at": "2023-09-06T15:00:53.562Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6cba6b0c-a74b-496e-94f9-4b6d77cdd060",
+        "email": "Jordan.Carroll@hotmail.com",
+        "firstName": "Hazle",
+        "lastName": "Gutkowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/550.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3735a0d0-e598-413c-bf3d-668494b6d8e6",
+        "email": "Angelina_Stokes@yahoo.com",
+        "firstName": "Raegan",
+        "lastName": "Kuvalis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95626078",
+        "tenantId": null
+      },
+      {
+        "reference": "7c9180e5-be4e-4f77-a485-fe872b66a68e",
+        "email": "Lessie.Koch11@yahoo.com",
+        "firstName": "Lina",
+        "lastName": "Quigley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62021196",
+        "tenantId": null
+      },
+      {
+        "reference": "64ee4ba6-0136-436d-b127-af73e60be551",
+        "email": "Clay20@gmail.com",
+        "firstName": "Marianna",
+        "lastName": "Kutch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/952.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "257d71d5-fa52-4c4e-bc96-b5fa57d6a059",
+        "email": "Sibyl.Hagenes21@gmail.com",
+        "firstName": "Juanita",
+        "lastName": "Larkin-Wyman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61229106",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_activity": [
+      {
+        "id": "e1de6859-bffe-4674-be55-641a7eeb5b9b",
+        "activity_type": "login",
+        "activity_result": "success",
+        "created_at": "2023-09-05T20:39:44.083Z",
+        "updated_at": "2023-09-06T11:15:07.707Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a9c407f-a304-4f4b-a23c-a8210235e7be",
+        "activity_type": "logout",
+        "activity_result": "failure",
+        "created_at": "2023-09-06T06:36:00.993Z",
+        "updated_at": "2023-09-05T22:02:28.062Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a08472e6-bbc2-4858-8fc2-2b8db50f0b67",
+        "activity_type": "post",
+        "activity_result": "pending",
+        "created_at": "2023-09-06T16:01:33.658Z",
+        "updated_at": "2023-09-06T02:56:14.152Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "23ac4c55-6f5d-4885-b6d5-f3435e84c238",
+        "activity_type": "comment",
+        "activity_result": "completed",
+        "created_at": "2023-09-06T15:49:13.616Z",
+        "updated_at": "2023-09-05T21:05:54.026Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b95bf5a5-d846-4c39-b364-6d7c4297b36b",
+        "activity_type": "like",
+        "activity_result": "canceled",
+        "created_at": "2023-09-06T09:06:20.050Z",
+        "updated_at": "2023-09-06T16:39:41.069Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_interaction": [
+      {
+        "id": "913d710b-2e93-4848-9118-2cb42348b5cb",
+        "interaction_type": "phone call",
+        "interaction_result": "resolved",
+        "created_at": "2023-09-05T21:53:52.937Z",
+        "updated_at": "2023-09-06T09:00:49.834Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9fc4a21-46d5-4ad5-ae96-02fb9f87b43b",
+        "interaction_type": "email inquiry",
+        "interaction_result": "escalated",
+        "created_at": "2023-09-06T13:41:50.017Z",
+        "updated_at": "2023-09-06T10:10:45.982Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46699286-c7bc-4c2a-8ba1-aa0c2e0bb220",
+        "interaction_type": "live chat",
+        "interaction_result": "pending",
+        "created_at": "2023-09-06T09:12:52.838Z",
+        "updated_at": "2023-09-06T02:16:34.239Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "faec9a2f-6df1-4c4d-a825-0120786ae6cd",
+        "interaction_type": "in-person meeting",
+        "interaction_result": "closed",
+        "created_at": "2023-09-06T02:35:23.293Z",
+        "updated_at": "2023-09-06T01:34:24.363Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99806c52-2565-468c-b218-ddd9c4442a2f",
+        "interaction_type": "webinar",
+        "interaction_result": "reopened",
+        "created_at": "2023-09-05T21:30:29.903Z",
+        "updated_at": "2023-09-06T00:47:47.699Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat_gpt_prompt": [
+      {
+        "id": "fe1d94d3-3878-479c-a1e2-7641c1ca0c1b",
+        "prompt_text": "Tell me a joke",
+        "created_at": "2023-09-06T16:42:35.671Z",
+        "updated_at": "2023-09-06T01:08:33.500Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3ad8fae-591f-4541-8038-b53639645f4b",
+        "prompt_text": "What is the meaning of life?",
+        "created_at": "2023-09-06T13:37:40.581Z",
+        "updated_at": "2023-09-06T11:01:35.526Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f942404a-ffaa-4ef1-a633-863875a8845b",
+        "prompt_text": "Recommend a book to read",
+        "created_at": "2023-09-05T17:08:12.382Z",
+        "updated_at": "2023-09-05T19:35:11.616Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7bdafcd6-74bb-4685-83bb-37bfce8c39ff",
+        "prompt_text": "How can I improve my productivity?",
+        "created_at": "2023-09-06T09:39:23.027Z",
+        "updated_at": "2023-09-06T06:43:05.263Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "975f9645-cff8-49b3-bdec-7ff601f59028",
+        "prompt_text": "Tell me a fun fact",
+        "created_at": "2023-09-05T18:14:39.458Z",
+        "updated_at": "2023-09-06T14:49:06.203Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "api_key": [
+      {
+        "id": "dfdd4210-a2e1-4d6c-b847-cab167d6d32c",
+        "key_value": "abcdef123456",
+        "created_at": "2023-09-06T03:19:15.501Z",
+        "updated_at": "2023-09-05T22:51:25.369Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3a1fd3c-e650-4383-acde-84c0540c0f74",
+        "key_value": "987654fedcba",
+        "created_at": "2023-09-06T09:13:45.610Z",
+        "updated_at": "2023-09-06T10:47:36.822Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c1e2d2c-faf9-4ce3-afed-b33c01fbb97e",
+        "key_value": "qwertyuioplkj",
+        "created_at": "2023-09-06T00:58:00.941Z",
+        "updated_at": "2023-09-06T14:08:58.655Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bdf1c18a-4142-4981-aed9-a9672a0ecde8",
+        "key_value": "zxcvbnmasdfgh",
+        "created_at": "2023-09-06T10:28:22.360Z",
+        "updated_at": "2023-09-05T20:28:39.994Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "092f730b-a2e6-40a6-9e3b-01024ae06414",
+        "key_value": "poiuytrewq0987",
+        "created_at": "2023-09-06T06:36:48.137Z",
+        "updated_at": "2023-09-06T05:35:54.078Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9a7323dd-3ab8-41b6-a147-7f2b38641fd1",
+        "email": "Corrine94@gmail.com",
+        "firstName": "Damion",
+        "lastName": "Braun",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/770.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a99aaa1c-2b01-4899-bbd7-45d3ca344930",
+        "email": "Nichole21@yahoo.com",
+        "firstName": "Martin",
+        "lastName": "Hoeger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/850.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3701d0fe-58e6-4eea-8624-e417eadfce48",
+        "email": "Presley14@hotmail.com",
+        "firstName": "Rubye",
+        "lastName": "Beahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38550981",
+        "tenantId": null
+      },
+      {
+        "reference": "b68a1976-a634-49d4-9fa1-e921a913f541",
+        "email": "Stuart_Mohr@hotmail.com",
+        "firstName": "Karelle",
+        "lastName": "Miller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/456.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9d2f3c2d-a026-4c49-aee2-550aa1035f95",
+        "email": "Harrison.Pouros62@gmail.com",
+        "firstName": "Zoe",
+        "lastName": "Pollich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1180.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
